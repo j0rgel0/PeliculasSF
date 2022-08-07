@@ -1,0 +1,51 @@
+/* NAVBAR: Logo */
+.logo {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 250px;
+}
+
+/* NAVBAR: Color de texto */
+.navbar .navbar-nav .nav-link {
+    color: #220a0a;
+}
+
+/* NAVBAR: Color de text HOVER */
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #ad1007;
+}
+
+/* Añadir espacio entre elementos del menu */
+.navbar-nav > li {
+    padding-right: 30px;
+}
+
+/* Estilo del texto del menú */
+.textomenu {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* Acomodar el NAV */
+.navbar-nav {
+    margin: auto;
+}
+
+/* FOOTER: Estilo enlaces */
+.link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #8d200d;
+}
+
+@media(max-width: 900px) {
+    .logo {
+        width: 30%;
+        /* margin-left: 19%; */
+    }
+
+}
