@@ -16,12 +16,12 @@ function header() {
     
             <!-- Liga a página de Buscador -->
             <li class="nav-item">
-              <a class="nav-link" href="./buscador.html">Buscar</a>
+              <a class="nav-link" href="./buscador.html">Busca</a>
             </li>
 
             <!-- Liga a página de Registrate -->
             <li class="nav-item">
-              <a class="nav-link" href="./registrar.html">Registrarse</a>
+              <a class="nav-link" href="./registrar.html">Regístrate</a>
             </li>
 
             <!-- Liga a página de Inicio de Sesión -->
