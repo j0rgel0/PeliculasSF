@@ -41,7 +41,9 @@ function header() {
 // Pie de página
 function footer() {
     const footerHTML = `
-        
+    <div style="text-align: center;">
+    Realizado por <a class="enlacesFooter" href="https://www.linkedin.com/in/jorgelopezvz/">Jorge Francisco López Valdez</a>
+    </div><br>
         `;
     const itemsContainer = document.querySelector("footer");
     itemsContainer.innerHTML += footerHTML;
