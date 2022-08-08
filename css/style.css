@@ -133,23 +133,24 @@ textarea {
 [type="email"]:hover {
     background: rgb(238, 233, 233);
 }
+[type="password"]:hover {
+    background: rgb(238, 233, 233);
+}
+
+#leyenda{
+    font-size: 13px;
+    margin-top: 0px;
+    font-weight: 600;
+}
 
 #errorNombre,
 #errorEmail,
-#errorAsunto,
-#errorMensaje,
-#errorTelefono,
-#errorLibro,
-#errorAutor,
-#errorisbn,
 #errorImagen,
-#errorPrecio,
-#errorDescripcion,
-#errorEditorial,
 #errorContrasenaConfirma,
 #errorContrasena {
-    color: red;
+    color: rgb(159, 19, 19);
     margin-left: 10px;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
