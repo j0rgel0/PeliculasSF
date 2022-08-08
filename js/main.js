@@ -6,7 +6,7 @@ function mostrarTodo(elemento) {
     <div id="contenedorProducto" class="d-flex flex-column card-deck col-md-5 col-lg-3 col-xl-2" data-toggle="modal" data-target="#id" onclick="cargarModal(${elemento[01]})">
         
       <div class="card-body">
-          <div class="text-center"><h5>🎬${elemento[8]} - (${elemento[9]})</h5>
+          <div class="text-center"><h6>🎬${elemento[8]} - (${elemento[9]})</h6>
           <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=${elemento[10]}+,San Francisco, CA&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
             
             <h6 class="text-muted"> by ${elemento[14]}</h6>
