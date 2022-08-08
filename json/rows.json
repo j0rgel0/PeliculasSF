@@ -1,0 +1,1092 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "yitu-d5am",
+      "name" : "Film Locations in San Francisco",
+      "assetType" : "dataset",
+      "attribution" : "San Francisco Film Commission",
+      "attributionLink" : "http://www.filmsf.org/",
+      "averageRating" : 0,
+      "category" : "Culture and Recreation",
+      "createdAt" : 1320948813,
+      "description" : "If you love movies, and you love San Francisco, you're bound to love this -- a listing of filming locations of movies shot in San Francisco starting from 1924. You'll find the titles, locations, fun facts, names of the director, writer, actors, and studio for most of these films.",
+      "displayType" : "table",
+      "downloadCount" : 97559,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1565804752,
+      "licenseId" : "PDDL",
+      "newBackend" : true,
+      "numberOfComments" : 10,
+      "oid" : 27112153,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1509143512,
+      "publicationGroup" : 251717,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1633637322,
+      "rowsUpdatedBy" : "qp74-qyt9",
+      "tableId" : 14566500,
+      "totalTimesRated" : 0,
+      "viewCount" : 226794,
+      "viewLastModified" : 1640296619,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1509143512,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 647116,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1509143512,
+        "workflowId" : 2017,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "failureCount" : 0,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "qp74-qyt9",
+          "displayName" : "Film SF"
+        }
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 327253222,
+        "name" : "Title",
+        "dataTypeName" : "text",
+        "fieldName" : "title",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671601,
+        "width" : 160,
+        "cachedContents" : {
+          "largest" : "Zodiac",
+          "non_null" : "1976",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Looking",
+            "count" : "41"
+          }, {
+            "item" : "The Phone/Jexi",
+            "count" : "39"
+          }, {
+            "item" : "The Last Black Man in San Francisco",
+            "count" : "33"
+          }, {
+            "item" : "DEVS",
+            "count" : "32"
+          }, {
+            "item" : "Chance Season 2",
+            "count" : "30"
+          }, {
+            "item" : "The Dead Pool",
+            "count" : "29"
+          }, {
+            "item" : "Etruscan Smile",
+            "count" : "28"
+          }, {
+            "item" : "Blue Jasmine",
+            "count" : "28"
+          }, {
+            "item" : "Venom",
+            "count" : "26"
+          }, {
+            "item" : "Murder in the First, Season 1",
+            "count" : "25"
+          }, {
+            "item" : "Smile Again, Jenny Lee",
+            "count" : "25"
+          }, {
+            "item" : "Ant-Man and the Wasp",
+            "count" : "24"
+          }, {
+            "item" : "San Andreas",
+            "count" : "24"
+          }, {
+            "item" : "Time After Time",
+            "count" : "24"
+          }, {
+            "item" : "Terminator - Genisys",
+            "count" : "24"
+          }, {
+            "item" : "The OA Part II",
+            "count" : "23"
+          }, {
+            "item" : "Bullitt",
+            "count" : "23"
+          }, {
+            "item" : "Sense8",
+            "count" : "23"
+          }, {
+            "item" : "Foul Play",
+            "count" : "22"
+          }, {
+            "item" : "The Matrix Resurrections",
+            "count" : "21"
+          } ],
+          "smallest" : "180",
+          "count" : "1976",
+          "cardinality" : "325"
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 327253223,
+        "name" : "Release Year",
+        "dataTypeName" : "number",
+        "fieldName" : "release_year",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 1671602,
+        "width" : 244,
+        "cachedContents" : {
+          "largest" : "2021",
+          "non_null" : "1976",
+          "average" : "1999.609841827768",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2015",
+            "count" : "289"
+          }, {
+            "item" : "2016",
+            "count" : "168"
+          }, {
+            "item" : "2019",
+            "count" : "131"
+          }, {
+            "item" : "2017",
+            "count" : "117"
+          }, {
+            "item" : "2014",
+            "count" : "113"
+          }, {
+            "item" : "2018",
+            "count" : "85"
+          }, {
+            "item" : "2020",
+            "count" : "80"
+          }, {
+            "item" : "2021",
+            "count" : "65"
+          }, {
+            "item" : "1988",
+            "count" : "49"
+          }, {
+            "item" : "2013",
+            "count" : "47"
+          }, {
+            "item" : "1993",
+            "count" : "46"
+          }, {
+            "item" : "1978",
+            "count" : "45"
+          }, {
+            "item" : "2001",
+            "count" : "37"
+          }, {
+            "item" : "1994",
+            "count" : "36"
+          }, {
+            "item" : "1974",
+            "count" : "34"
+          }, {
+            "item" : "1968",
+            "count" : "34"
+          }, {
+            "item" : "1995",
+            "count" : "33"
+          }, {
+            "item" : "1999",
+            "count" : "33"
+          }, {
+            "item" : "1992",
+            "count" : "29"
+          }, {
+            "item" : "1997",
+            "count" : "28"
+          } ],
+          "smallest" : "1915",
+          "count" : "1976",
+          "sum" : "6826668",
+          "cardinality" : "78"
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 327253224,
+        "name" : "Locations",
+        "dataTypeName" : "text",
+        "fieldName" : "locations",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671603,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "Z Space Studios; 450 Florida St.",
+          "non_null" : "1922",
+          "null" : "54",
+          "top" : [ {
+            "item" : "Golden Gate Bridge",
+            "count" : "27"
+          }, {
+            "item" : "City Hall",
+            "count" : "23"
+          }, {
+            "item" : "Fairmont Hotel (950 Mason Street, Nob Hill)",
+            "count" : "21"
+          }, {
+            "item" : "Treasure Island",
+            "count" : "14"
+          }, {
+            "item" : "Coit Tower",
+            "count" : "13"
+          }, {
+            "item" : "Palace of Fine Arts (3301 Lyon Street)",
+            "count" : "11"
+          }, {
+            "item" : "St. Peter & Paul's Church (666 Filbert Street, Washington Square)",
+            "count" : "10"
+          }, {
+            "item" : "Chinatown",
+            "count" : "10"
+          }, {
+            "item" : "Bay Bridge",
+            "count" : "9"
+          }, {
+            "item" : "Golden Gate Park",
+            "count" : "9"
+          }, {
+            "item" : "Grace Cathedral Episcopal Church (1100 California Street)",
+            "count" : "8"
+          }, {
+            "item" : "Hall of Justice (850 Bryant Street)",
+            "count" : "8"
+          }, {
+            "item" : "Postcard Row (Alamo Square, Hayes Valley)",
+            "count" : "7"
+          }, {
+            "item" : "Alcatraz Island",
+            "count" : "7"
+          }, {
+            "item" : "Fort Point (Presidio, Golden Gate National Recreation Area)",
+            "count" : "7"
+          }, {
+            "item" : "Palace of Fine Arts",
+            "count" : "7"
+          }, {
+            "item" : "Ferry Building",
+            "count" : "6"
+          }, {
+            "item" : "Pier 7",
+            "count" : "6"
+          }, {
+            "item" : "Financial District",
+            "count" : "5"
+          }, {
+            "item" : "War Memorial Opera House (401 Van Ness Avenue)",
+            "count" : "5"
+          } ],
+          "smallest" : "0-100 block Halleck Street",
+          "count" : "1976",
+          "cardinality" : "1537"
+        },
+        "format" : { }
+      }, {
+        "id" : 327253225,
+        "name" : "Fun Facts",
+        "dataTypeName" : "text",
+        "fieldName" : "fun_facts",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671604,
+        "width" : 208,
+        "cachedContents" : {
+          "largest" : "With 23 miles of ladders and 300,000 rivets in each tower, the Golden Gate Bridge was the world's longest span when it opened in 1937.",
+          "non_null" : "463",
+          "null" : "1513",
+          "top" : [ {
+            "item" : "With 23 miles of ladders and 300,000 rivets in each tower, the Golden Gate Bridge was the world's longest span when it opened in 1937.",
+            "count" : "28"
+          }, {
+            "item" : "The dome of SF's City Hall is almost a foot taller than that of the US Capitol Building. In 1954, Joe DiMaggio and Marilyn Monroe married at the Beaux Arts-style building.",
+            "count" : "18"
+          }, {
+            "item" : "In 1945 the Fairmont hosted the United Nations Conference on International Organization as delegates arrived to draft a charter for the organization. The U.S. Secretary of State, Edward Stettinius drafted the charter in the hotel's Garden Room.",
+            "count" : "17"
+          }, {
+            "item" : "Driving shots",
+            "count" : "15"
+          }, {
+            "item" : "An artificial island, Treasure Island was created for the 1939 Golden Gate International Exposition, and is named after the novel by Robert Louis Stevenson, a one-time San Francisco resident.",
+            "count" : "11"
+          }, {
+            "item" : "Every hour and half-hour, the clock bell atop the Ferry Building chimes portions of the Westminster Quarters.",
+            "count" : "11"
+          }, {
+            "item" : "First established in the mid-19th Century, SF's Chinatown is the oldest and largest Chinatown in the US.",
+            "count" : "10"
+          }, {
+            "item" : "Though Marilyn Monroe and Joe DiMaggio were not allowed to be married at the Church (DiMaggio had married his first wife at the Church but was divorced), the couple returned to the steps of the Church for photos, following their City Hall nuptials.",
+            "count" : "9"
+          }, {
+            "item" : "The 6 Victorian homes across from Alamo Square Park are among the few Victorians to survive the Great Fire.",
+            "count" : "9"
+          }, {
+            "item" : "The Tower was funded by a gift bequeathed by Lillie Hitchcock Coit, a socialite who reportedly liked to chase fires. Though the tower resembles a firehose nozzle, it was not designed this way.",
+            "count" : "9"
+          }, {
+            "item" : "Grace Cathedral Episcopal Church is the West Coast's largest Episcopalian cathedral.",
+            "count" : "8"
+          }, {
+            "item" : "The original Palace was built for the 1915 Panama-Pacific Exposition, and completely destroyed in 1964. It was rebuilt in 1965.",
+            "count" : "8"
+          }, {
+            "item" : "Alcatraz Island was a military fort before it became a prison.",
+            "count" : "7"
+          }, {
+            "item" : "The Bank of America Building was the tallest building on the West Coast from 1969-1972, when it was surpassed by the TransAmerica Pyramid. Today, the Bank of America building is the 5th tallest building on the West Coast.",
+            "count" : "7"
+          }, {
+            "item" : "Built in 1853, Fort Point is the only West Coast fort built by the Union Army. Though the Confederate army planned to attack San Francisco, the commanding Confederate general learned that the war had ended while end route to SF.",
+            "count" : "7"
+          }, {
+            "item" : "Before opening in 1936, the bridge was blessed by Cardinal Secretary of State Eugenio Pacelli, who later became Pope Pius XII.",
+            "count" : "6"
+          }, {
+            "item" : "In 1776, Spain made the Presidio a fortified area. The area was then given to Mexico, but then given to the US in 1848. The 1994 demilitarization of the area in 1994 marked the end of its 219 years of military use.",
+            "count" : "6"
+          }, {
+            "item" : "The Steinhart Aquarium is home to over 38,000 animals, which represent more than 900 species.",
+            "count" : "5"
+          }, {
+            "item" : "Motorcycle/SUV chase scene",
+            "count" : "5"
+          }, {
+            "item" : "SF General Hospital is the only Level I Trauma Center serving San Francisco and northern San Mateo County.",
+            "count" : "5"
+          } ],
+          "smallest" : "3 characters run out of stadium, there is a group of people on the sidewalk, an earthquake hits, and they duck for cover",
+          "count" : "1976",
+          "cardinality" : "186"
+        },
+        "format" : { }
+      }, {
+        "id" : 327253226,
+        "name" : "Production Company",
+        "dataTypeName" : "text",
+        "fieldName" : "production_company",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671605,
+        "width" : 316,
+        "cachedContents" : {
+          "largest" : "Zee Films",
+          "non_null" : "1976",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Mission Street Productions, LLC",
+            "count" : "125"
+          }, {
+            "item" : "Warner Bros. Pictures",
+            "count" : "99"
+          }, {
+            "item" : "Paramount Pictures",
+            "count" : "91"
+          }, {
+            "item" : "TVM Productions",
+            "count" : "84"
+          }, {
+            "item" : "Turner North Center Productions",
+            "count" : "58"
+          }, {
+            "item" : "Unpronounceable Productions, LLC",
+            "count" : "42"
+          }, {
+            "item" : "CBS Films Inc.",
+            "count" : "39"
+          }, {
+            "item" : "LBMISF, LLC",
+            "count" : "33"
+          }, {
+            "item" : "Minim Productions",
+            "count" : "32"
+          }, {
+            "item" : "The Malpaso Company",
+            "count" : "30"
+          }, {
+            "item" : "TVM Productions Inc.",
+            "count" : "30"
+          }, {
+            "item" : "Twentieth Century Fox Film Corporation",
+            "count" : "28"
+          }, {
+            "item" : "Orion Pictures Corp.",
+            "count" : "28"
+          }, {
+            "item" : "Po Valley Productions, LLC",
+            "count" : "28"
+          }, {
+            "item" : "Perdido Productions",
+            "count" : "28"
+          }, {
+            "item" : "Columbia Pictures Corporation",
+            "count" : "27"
+          }, {
+            "item" : "L.O.Z. Productions, Inc.",
+            "count" : "26"
+          }, {
+            "item" : "Carlo Caldana/Marguery Films",
+            "count" : "25"
+          }, {
+            "item" : "PYM Particles Productions II, LLC",
+            "count" : "24"
+          }, {
+            "item" : "T5 Productions LLC",
+            "count" : "24"
+          } ],
+          "smallest" : "1492 Pictures",
+          "count" : "1976",
+          "cardinality" : "199"
+        },
+        "format" : { }
+      }, {
+        "id" : 327253227,
+        "name" : "Distributor",
+        "dataTypeName" : "text",
+        "fieldName" : "distributor",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671606,
+        "width" : 232,
+        "cachedContents" : {
+          "largest" : "Zealot Pictures",
+          "non_null" : "1840",
+          "null" : "136",
+          "top" : [ {
+            "item" : "Paramount Pictures",
+            "count" : "154"
+          }, {
+            "item" : "Warner Bros. Pictures",
+            "count" : "150"
+          }, {
+            "item" : "Netflix",
+            "count" : "141"
+          }, {
+            "item" : "HBO",
+            "count" : "93"
+          }, {
+            "item" : "HULU",
+            "count" : "84"
+          }, {
+            "item" : "Warner Brothers",
+            "count" : "59"
+          }, {
+            "item" : "Turner Network Television (TNT)",
+            "count" : "58"
+          }, {
+            "item" : "Buena Vista Pictures",
+            "count" : "52"
+          }, {
+            "item" : "Sony Pictures Classics",
+            "count" : "51"
+          }, {
+            "item" : "Columbia Pictures",
+            "count" : "49"
+          }, {
+            "item" : "Universal Pictures",
+            "count" : "48"
+          }, {
+            "item" : "TBD",
+            "count" : "48"
+          }, {
+            "item" : "Home Box Office (HBO)",
+            "count" : "42"
+          }, {
+            "item" : "Walt Disney Studios Motion Pictures",
+            "count" : "41"
+          }, {
+            "item" : "Lionsgate",
+            "count" : "39"
+          }, {
+            "item" : "Twentieth Century Fox Film Corp.",
+            "count" : "34"
+          }, {
+            "item" : "United Artists",
+            "count" : "32"
+          }, {
+            "item" : "FX Network",
+            "count" : "32"
+          }, {
+            "item" : "Twentieth Century Fox Film Corporation",
+            "count" : "31"
+          }, {
+            "item" : "Hulu",
+            "count" : "30"
+          } ],
+          "smallest" : "01 Distribution",
+          "count" : "1976",
+          "cardinality" : "161"
+        },
+        "format" : { }
+      }, {
+        "id" : 327253228,
+        "name" : "Director",
+        "dataTypeName" : "text",
+        "fieldName" : "director",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671607,
+        "width" : 196,
+        "cachedContents" : {
+          "largest" : "Zal Batmanglij",
+          "non_null" : "1976",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Andrew Haigh",
+            "count" : "125"
+          }, {
+            "item" : "Steven Bochcho",
+            "count" : "58"
+          }, {
+            "item" : "Jon Lucas, Scott Moore",
+            "count" : "39"
+          }, {
+            "item" : "Peyton Reed",
+            "count" : "37"
+          }, {
+            "item" : "Joe Talbot",
+            "count" : "33"
+          }, {
+            "item" : "Philip Kaufman",
+            "count" : "32"
+          }, {
+            "item" : "Alex Garland",
+            "count" : "32"
+          }, {
+            "item" : "Woody Allen",
+            "count" : "31"
+          }, {
+            "item" : "Rozann Dawson",
+            "count" : "30"
+          }, {
+            "item" : "Buddy Van Horn",
+            "count" : "29"
+          }, {
+            "item" : "Gus Van Sant",
+            "count" : "28"
+          }, {
+            "item" : "Chris Columbus",
+            "count" : "28"
+          }, {
+            "item" : "Oded Binnun/ Michel Brezis",
+            "count" : "28"
+          }, {
+            "item" : "Lenny Abrahamson",
+            "count" : "28"
+          }, {
+            "item" : "Ruben Fleischer",
+            "count" : "26"
+          }, {
+            "item" : "Nicholas Meyer",
+            "count" : "26"
+          }, {
+            "item" : "Carlo Caldana",
+            "count" : "25"
+          }, {
+            "item" : "Brad Peyton",
+            "count" : "24"
+          }, {
+            "item" : "Alan Taylor",
+            "count" : "24"
+          }, {
+            "item" : "The Wachowskis",
+            "count" : "23"
+          } ],
+          "smallest" : "Adam Shankman",
+          "count" : "1976",
+          "cardinality" : "267"
+        },
+        "format" : { }
+      }, {
+        "id" : 327253229,
+        "name" : "Writer",
+        "dataTypeName" : "text",
+        "fieldName" : "writer",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671608,
+        "width" : 172,
+        "cachedContents" : {
+          "largest" : "Zal Batmanglij, Brit Marling",
+          "non_null" : "1975",
+          "null" : "1",
+          "top" : [ {
+            "item" : "Michael Lannan",
+            "count" : "125"
+          }, {
+            "item" : "Eric Lodal",
+            "count" : "58"
+          }, {
+            "item" : "Harry Julian Fink",
+            "count" : "55"
+          }, {
+            "item" : "Alexandra Cunningham",
+            "count" : "41"
+          }, {
+            "item" : "Jon Lucas, Scott Moore",
+            "count" : "39"
+          }, {
+            "item" : "Woody Allen",
+            "count" : "37"
+          }, {
+            "item" : "Joe Talbot, Jimmie Fails, Rob Richert",
+            "count" : "33"
+          }, {
+            "item" : "Alex Garland",
+            "count" : "32"
+          }, {
+            "item" : "Sarah Bellwood, Michal Lali Kagan, Michael McGowan Amital Stern, Jose Luis Sampedro",
+            "count" : "28"
+          }, {
+            "item" : "Dustin Lance Black",
+            "count" : "28"
+          }, {
+            "item" : "Colin Higgins",
+            "count" : "26"
+          }, {
+            "item" : "Jeff Pinkner, Scott Rosenberg",
+            "count" : "26"
+          }, {
+            "item" : "Linda Demetrick",
+            "count" : "25"
+          }, {
+            "item" : "Joe Eszterhas",
+            "count" : "24"
+          }, {
+            "item" : "Karl Alexander",
+            "count" : "24"
+          }, {
+            "item" : "Allan Loeb",
+            "count" : "24"
+          }, {
+            "item" : "Alan R. Trustman",
+            "count" : "24"
+          }, {
+            "item" : "Chris McKenna",
+            "count" : "24"
+          }, {
+            "item" : "James Cameron",
+            "count" : "24"
+          }, {
+            "item" : "Stirling Silliphant",
+            "count" : "23"
+          } ],
+          "smallest" : "Aaron Sorkin",
+          "count" : "1976",
+          "cardinality" : "285"
+        },
+        "format" : { }
+      }, {
+        "id" : 327253230,
+        "name" : "Actor 1",
+        "dataTypeName" : "text",
+        "fieldName" : "actor_1",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671609,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "Zoe Kavan",
+          "non_null" : "1972",
+          "null" : "4",
+          "top" : [ {
+            "item" : "Jonathan Groff",
+            "count" : "125"
+          }, {
+            "item" : "Hugh Laurie",
+            "count" : "114"
+          }, {
+            "item" : "Clint Eastwood",
+            "count" : "80"
+          }, {
+            "item" : "Taye Diggs",
+            "count" : "58"
+          }, {
+            "item" : "Jamie Clayton",
+            "count" : "42"
+          }, {
+            "item" : "Michael Douglas",
+            "count" : "40"
+          }, {
+            "item" : "Adam Devine",
+            "count" : "39"
+          }, {
+            "item" : "Tom Hardy",
+            "count" : "37"
+          }, {
+            "item" : "Jimmie Fails",
+            "count" : "33"
+          }, {
+            "item" : "Sonoya Mizuno",
+            "count" : "32"
+          }, {
+            "item" : "Arnold Schwarzenegger",
+            "count" : "31"
+          }, {
+            "item" : "Keanu Reeves",
+            "count" : "31"
+          }, {
+            "item" : "Dwayne Johnson",
+            "count" : "31"
+          }, {
+            "item" : "Steve McQueen",
+            "count" : "30"
+          }, {
+            "item" : "Cate Blanchett",
+            "count" : "28"
+          }, {
+            "item" : "Brian Cox",
+            "count" : "28"
+          }, {
+            "item" : "Craig Tsuyumine",
+            "count" : "25"
+          }, {
+            "item" : "Malcolm McDowell",
+            "count" : "24"
+          }, {
+            "item" : "Paul Rudd",
+            "count" : "24"
+          }, {
+            "item" : "Brit Marling",
+            "count" : "23"
+          } ],
+          "smallest" : "Aaron Eckhart",
+          "count" : "1976",
+          "cardinality" : "245"
+        },
+        "format" : { }
+      }, {
+        "id" : 327253231,
+        "name" : "Actor 2",
+        "dataTypeName" : "text",
+        "fieldName" : "actor_2",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671610,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "Yul Brynner",
+          "non_null" : "1883",
+          "null" : "93",
+          "top" : [ {
+            "item" : "Frankie Alvarez",
+            "count" : "84"
+          }, {
+            "item" : "Gretchen Mol",
+            "count" : "84"
+          }, {
+            "item" : "Kathleen Robertson",
+            "count" : "58"
+          }, {
+            "item" : "Frankie J. Alvarez",
+            "count" : "41"
+          }, {
+            "item" : "Alexandra Shipp",
+            "count" : "39"
+          }, {
+            "item" : "Michelle Wiliams",
+            "count" : "37"
+          }, {
+            "item" : "Jonathan Majors",
+            "count" : "33"
+          }, {
+            "item" : "Nick Offerman",
+            "count" : "32"
+          }, {
+            "item" : "Greta Lee",
+            "count" : "30"
+          }, {
+            "item" : "Liam Neeson",
+            "count" : "29"
+          }, {
+            "item" : "Roseanne Arquette",
+            "count" : "28"
+          }, {
+            "item" : "Alec Baldwin",
+            "count" : "28"
+          }, {
+            "item" : "Puneet Prasad",
+            "count" : "25"
+          }, {
+            "item" : "Mary Steenburgen",
+            "count" : "24"
+          }, {
+            "item" : "Evangeline Lilly",
+            "count" : "24"
+          }, {
+            "item" : "Jason Clarke",
+            "count" : "24"
+          }, {
+            "item" : "Emory Cohen",
+            "count" : "23"
+          }, {
+            "item" : "Jacqueline Bisset",
+            "count" : "23"
+          }, {
+            "item" : "Chevy Chase",
+            "count" : "22"
+          }, {
+            "item" : "Ellie Reed",
+            "count" : "21"
+          } ],
+          "smallest" : "Aaliyah",
+          "count" : "1976",
+          "cardinality" : "253"
+        },
+        "format" : { }
+      }, {
+        "id" : 327253232,
+        "name" : "Actor 3",
+        "dataTypeName" : "text",
+        "fieldName" : "actor_3",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1671611,
+        "width" : 184,
+        "cachedContents" : {
+          "largest" : "Zachary Quinto",
+          "non_null" : "1504",
+          "null" : "472",
+          "top" : [ {
+            "item" : "Murray Bartlett",
+            "count" : "144"
+          }, {
+            "item" : "Ethan Suplee",
+            "count" : "114"
+          }, {
+            "item" : "Ian Anthony Dale",
+            "count" : "58"
+          }, {
+            "item" : "Michael Pena",
+            "count" : "39"
+          }, {
+            "item" : "Danny Glover",
+            "count" : "33"
+          }, {
+            "item" : "Jin Ha",
+            "count" : "32"
+          }, {
+            "item" : "Patricia Clarkson",
+            "count" : "29"
+          }, {
+            "item" : "Peter Sarsgaard",
+            "count" : "28"
+          }, {
+            "item" : "Thora Birch",
+            "count" : "28"
+          }, {
+            "item" : "Riz Ahmed",
+            "count" : "26"
+          }, {
+            "item" : "Larry Kitagawa",
+            "count" : "25"
+          }, {
+            "item" : "Michael Douglas",
+            "count" : "24"
+          }, {
+            "item" : "David Warner",
+            "count" : "24"
+          }, {
+            "item" : "Robert Vaughn",
+            "count" : "23"
+          }, {
+            "item" : "Patrick Gibson",
+            "count" : "23"
+          }, {
+            "item" : "Burgess Meredith",
+            "count" : "22"
+          }, {
+            "item" : "Amanda Rea",
+            "count" : "21"
+          }, {
+            "item" : "Neil Patrick Harris",
+            "count" : "21"
+          }, {
+            "item" : "Steven LeMay",
+            "count" : "20"
+          }, {
+            "item" : "Robin Weigert",
+            "count" : "20"
+          } ],
+          "smallest" : "Adrian Grenier",
+          "count" : "1976",
+          "cardinality" : "145"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Open Data Commons Public Domain Dedication and License",
+        "termsLink" : "http://opendatacommons.org/licenses/pddl/1.0/"
+      },
+      "metadata" : {
+        "jsonQuery" : {
+          "order" : [ {
+            "columnFieldName" : "title",
+            "ascending" : true
+          } ]
+        },
+        "custom_fields" : {
+          "Department Metrics" : {
+            "Publishing Department" : "Film Commission"
+          },
+          "Detailed Descriptive" : {
+            "Data notes" : "Contains general location (Point of Interest) but not standard addresses",
+            "Geographic unit" : "Other"
+          },
+          "Publishing Details" : {
+            "Data change frequency" : "Weekly",
+            "Publishing frequency" : "Annually"
+          }
+        },
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "qp74-qyt9",
+        "displayName" : "Film SF",
+        "profileImageUrlLarge" : "/api/users/qp74-qyt9/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/qp74-qyt9/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/qp74-qyt9/profile_images/TINY",
+        "screenName" : "Film SF",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 327253222,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "qp74-qyt9",
+        "displayName" : "Film SF",
+        "profileImageUrlLarge" : "/api/users/qp74-qyt9/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/qp74-qyt9/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/qp74-qyt9/profile_images/TINY",
+        "screenName" : "Film SF",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula" ]
+      },
+      "tags" : [ "film", "locations", "movies", "actors", "directors" ],
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-v9hp~rzy3.vamz", "00000000-0000-0000-2F0A-9AED29810864", 0, 1633637321, null, 1633637321, null, "{ }", "A Jitney Elopement", "1915", "20th and Folsom Streets", null, "The Essanay Film Manufacturing Company", "General Film Company", "Charles Chaplin", "Charles Chaplin", "Charles Chaplin", "Edna Purviance", null ]
+, [ "row-vstf_yqkv.t6qm", "00000000-0000-0000-618A-B6B2358E522B", 0, 1633637321, null, 1633637321, null, "{ }", "A Jitney Elopement", "1915", "Golden Gate Park", "During San Francisco's Gold Rush era, the Park was part of an area designated as the \"Great Sand Waste\".", "The Essanay Film Manufacturing Company", "General Film Company", "Charles Chaplin", "Charles Chaplin", "Charles Chaplin", "Edna Purviance", null ]
+, [ "row-scgw~qhbx-y8c6", "00000000-0000-0000-9C17-E84E3E3AB445", 0, 1633637321, null, 1633637321, null, "{ }", "Greed", "1924", "Cliff House (1090 Point Lobos Avenue)", "In 1887, the Cliff House was severely damaged when the schooner Parallel, abandoned and loaded with dynamite, ran aground on the rocks below.", "Metro-Goldwyn-Mayer (MGM)", "Metro-Goldwyn-Mayer (MGM)", "Eric von Stroheim", "Eric von Stroheim", "Zasu Pitts", "Gibson Gowland", "Jean Hersholt" ]
+, [ "row-nfq5.6biv.xwju", "00000000-0000-0000-809D-AA5BFFFC1299", 0, 1633637321, null, 1633637321, null, "{ }", "Greed", "1924", "Bush and Sutter Streets", null, "Metro-Goldwyn-Mayer (MGM)", "Metro-Goldwyn-Mayer (MGM)", "Eric von Stroheim", "Eric von Stroheim", "Zasu Pitts", "Gibson Gowland", "Jean Hersholt" ]
+, [ "row-bu6g~8c5f~gjsq", "00000000-0000-0000-CF3C-ACED44C459C6", 0, 1633637321, null, 1633637321, null, "{ }", "Greed", "1924", "Hayes Street at Laguna", null, "Metro-Goldwyn-Mayer (MGM)", "Metro-Goldwyn-Mayer (MGM)", "Eric von Stroheim", "Eric von Stroheim", "Zasu Pitts", "Gibson Gowland", "Jean Hersholt" ]
+, [ "row-e79x.3h35.care", "00000000-0000-0000-7D08-F8F4AA779533", 0, 1633637321, null, 1633637321, null, "{ }", "The Jazz Singer", "1927", "Coffee Dan's (O'Farrell Street at Powell)", null, "Warner Bros. Pictures", "Warner Bros. Pictures", "Alan Crosland", "Alfred A. Cohn", "Al Jolson", "May McAvoy", "Warner Oland" ]
+, [ "row-hfbj-db6f.zwmt", "00000000-0000-0000-B93A-44E8FC934316", 0, 1633637321, null, 1633637321, null, "{ }", "Barbary Coast", "1935", null, null, "The Samuel Goldwyn Company", "United Artists", "Howard Hawks", "Ben Hecht", "Mariam Hopkins", "Edward G. Robinson", "Joel McCrea" ]
+, [ "row-vfnp~nx7b.twwm", "00000000-0000-0000-B4DC-149DC29A730B", 0, 1633637321, null, 1633637321, null, "{ }", "After the Thin Man", "1936", "Coit Tower", "The Tower was funded by a gift bequeathed by Lillie Hitchcock Coit, a socialite who reportedly liked to chase fires. Though the tower resembles a firehose nozzle, it was not designed this way.", "Metro-Goldwyn Mayer", "Metro-Goldwyn Mayer", "W.S. Van Dyke", "Frances Goodrich", "William Powell", "Myrna Loy", "James Stewart" ]
+, [ "row-f8dk.hynk.n3sf", "00000000-0000-0000-A70E-1FA3E17D9F10", 0, 1633637321, null, 1633637321, null, "{ }", "San Francisco", "1936", "The Barbary Coast", "The Barbary Coast was a red-light district that was largely destroyed in the 1906 earthquake. Though some of the establishments were rebuilt after the earthquake, an anti-vice campaign put the establishments out of business.", "Metro-Goldwyn Mayer", "Metro-Goldwyn Mayer", "W.S. Van Dyke", "Anita Loos", "Clark Gable", "Jeanette MacDonald", "Spencer Tracy" ]
+, [ "row-retf~zezc_4cr7", "00000000-0000-0000-5210-87A7716D7107", 0, 1633637321, null, 1633637321, null, "{ }", "San Francisco", "1936", "City Hall", "The dome of SF's City Hall is almost a foot taller than that of the US Capitol Building. In 1954, Joe DiMaggio and Marilyn Monroe married at the Beaux Arts-style building.", "Metro-Goldwyn Mayer", "Metro-Goldwyn Mayer", "W.S. Van Dyke", "Anita Loos", "Clark Gable", "Jeanette MacDonald", "Spencer Tracy" ]
+, [ "row-qghm-p9rp-kvsx", "00000000-0000-0000-E03B-F72136835AC2", 0, 1633637321, null, 1633637321, null, "{ }", "Alexander's Ragtime Band", "1938", "Cliff House (1090 Point Lobos Avenue)", "In 1887, the Cliff House was severely damaged when the schooner Parallel, abandoned and loaded with dynamite, ran aground on the rocks below.", "Twentieth Century Fox Film Corporation", "Twentieth Century Fox Film Corporation", "Henry King", "Kathryn Scola", "Tyrone Power", "Alice Faye", "Don Ameche" ]
+, [ "row-3m4j-ggu3_g36x", "00000000-0000-0000-07EF-637CC35F0E68", 0, 1633637321, null, 1633637321, null, "{ }", "Alexander's Ragtime Band", "1938", "San Francisco Bay", null, "Twentieth Century Fox Film Corporation", "Twentieth Century Fox Film Corporation", "Henry King", "Kathryn Scola", "Tyrone Power", "Alice Faye", "Don Ameche" ]
+, [ "row-rnxu~nfd4-ywvn", "00000000-0000-0000-15B7-FFB207148BD1", 0, 1633637321, null, 1633637321, null, "{ }", "Alexander's Ragtime Band", "1938", "Fairmont Hotel (950 Mason Street, Nob Hill)", "In 1945 the Fairmont hosted the United Nations Conference on International Organization as delegates arrived to draft a charter for the organization. The U.S. Secretary of State, Edward Stettinius drafted the charter in the hotel's Garden Room.", "Twentieth Century Fox Film Corporation", "Twentieth Century Fox Film Corporation", "Henry King", "Kathryn Scola", "Tyrone Power", "Alice Faye", "Don Ameche" ]
+, [ "row-mgdu-kg8r~8c9y", "00000000-0000-0000-4D9A-02BD0A601CC3", 0, 1633637321, null, 1633637321, null, "{ }", "Shadow of the Thin Man", "1941", "Bay Bridge", "Before opening in 1936, the bridge was blessed by Cardinal Secretary of State Eugenio Pacelli, who later became Pope Pius XII.", "Metro-Goldwyn Mayer", "Metro-Goldwyn Mayer", "W.S. Van Dyke", "Harry Kurnitz", "William Powell", "Myrna Loy", "Barry Nelson" ]
+, [ "row-ebk3.8hmh_dit3", "00000000-0000-0000-ECEF-B4B749C65FCB", 0, 1633637321, null, 1633637321, null, "{ }", "The Maltese Falcon", "1941", "Golden Gate Bridge", "With 23 miles of ladders and 300,000 rivets in each tower, the Golden Gate Bridge was the world's longest span when it opened in 1937.", "Warner Bros. Pictures", "Warner Bros. Pictures", "John Huston", "John Huston", "Humphrey Bogart", "Mary Astor", "Gladys George" ]
+, [ "row-2zss~mwds~s6xd", "00000000-0000-0000-0D74-F77B5A852FDB", 0, 1633637321, null, 1633637321, null, "{ }", "The Maltese Falcon", "1941", "Ferry Building", "Every hour and half-hour, the clock bell atop the Ferry Building chimes portions of the Westminster Quarters.", "Warner Bros. Pictures", "Warner Bros. Pictures", "John Huston", "John Huston", "Humphrey Bogart", "Mary Astor", "Gladys George" ]
+, [ "row-i63i_gevg-7iyg", "00000000-0000-0000-E366-CA7B68F8D2D0", 0, 1633637321, null, 1633637321, null, "{ }", "The Maltese Falcon", "1941", "Burritt Alley (Off Bush Street, between Powell and Stockton Streets)", null, "Warner Bros. Pictures", "Warner Bros. Pictures", "John Huston", "John Huston", "Humphrey Bogart", "Mary Astor", "Gladys George" ]]
+}
