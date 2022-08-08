@@ -1,21 +1,23 @@
 let URLMain = "json/rows.json";
 let rowProds = document.getElementById("lista");
 
-function monstrarTodo(elemento) {
+function mostrarTodo(elemento) {
     rowProds.innerHTML += `
-    
-    <div id="contenedorProducto" class="d-flex flex-column card-deck col-md-5 col-lg-3 col-xl-2">
-        <div class="card-body">
+    <div id="contenedorProducto" class="d-flex flex-column card-deck col-md-5 col-lg-3 col-xl-2" data-toggle="modal" data-target="#id" onclick="cargarModal(${elemento[01]})">
+        
+      <div class="card-body">
+          <div class="text-center"><h5>🎬${elemento[8]} - (${elemento[9]})</h5>
+          <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=${elemento[10]}+,San Francisco, CA&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            
+            <h6 class="text-muted"> by ${elemento[14]}</h6>
+            <p id="location"><b>Location:</b> ${elemento[10]}</p>
+          </div>
+      </div>
 
-            <div>
-                <h5 class="text-center">${elemento[8]} (${elemento[9]})</h5>
-                <h6 class="text-muted text-center"> ${elemento[14]}</h6>
-                <div style="width: 100%">
-                    <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=${elemento[10]}+,San Francisco, CA&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-                    <p><b>Location:</b> ${elemento[10]}</p>
-                </div>
-            </div>
-        </div>
+        <div class="card-footer text-muted mx-auto">
+          <button type="button" class="btn btn-outline-dark">🎥Detalles</button>
+      </div>
+
     </div>
 
     `;
@@ -28,12 +30,22 @@ fetch(URLMain, {
 }).then( (response) => {
 
     response.json().then((data) => {
-      data.meta.view.columns.forEach((element,i) => {
-        console.log(i+' '+element.name);
+      data.meta.view.columns.forEach((elemento,i) => {
+        console.log(i+' '+elemento.name);
     });
-        data.data.forEach(element => {
-            monstrarTodo(element);
-        });
+        // data.data.forEach(elemento => {
+        //     monstrarTodo(elemento);
+        // });
+
+    		let keys = Object.keys(data.data);
+        console.log(keys);
+        let inicio = keys.length - 5;
+        for (var i = inicio; i < keys.length; i++) {
+            let key = keys[i];
+   			    let value = data.data[key];
+   			    mostrarTodo(value);
+		    }
+    
     // Error en el servidor, DNS están mal, no tienes conexión
     }).catch((err)=> {
         console.log("catch request "+ err);

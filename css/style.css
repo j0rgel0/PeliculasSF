@@ -42,7 +42,7 @@
     color: #8d200d;
 }
 
-/* Contenedor del producto  */
+/* Contenedor de los elementos  */
 #contenedorProducto {
     border: 1.5px solid rgb(0, 0, 0);
     margin: 10px;
@@ -70,25 +70,6 @@ button.btn {
     margin-top: auto;
 }
 
-#imagenProducto {
-    width: 200px;
-    height: 290px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-}
-
-#imagenProductoCarrito {
-    width: 150px;
-    height: 200px;
-    display: block;
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px;
-}
-
 #contenedorProducto:hover,
 #imagenProducto:hover #botonAnadir {
     box-shadow: rgba(0, 0, 0, 0.35) 0 1px 30px;
@@ -99,8 +80,13 @@ button.btn {
 #modalNombre {
     margin-top: 550px;
 }
+/* FIN Contenedor de los elementos  */
 
-/* FIN Contenedor del producto  */
+#location{
+    margin-bottom: -5px;
+}
+
+
 
 @media(max-width: 900px) {
     .logo {
